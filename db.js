@@ -1,5 +1,5 @@
 var MongoClient = require("mongodb").MongoClient;
-var db_url = "mongodb+srv://atwar44:<password>@bhtc.bkcoy.mongodb.net/?retryWrites=true&w=majority";
+var db_url = "mongodb+srv://atwar44:qwe789456123@bhtc.bkcoy.mongodb.net/?retryWrites=true&w=majority";
 
 MongoClient.connect(db_url, function (err, db) {
   if (err) throw err;
