@@ -17,9 +17,10 @@ const server = express()
   .use((req, res) => res.sendFile(INDEX, { root: __dirname }))
   .listen(PORT, () => console.log(`Listening on ${PORT}`));
 
-  const WebSocket = require('ws');
+  const WebSocket  = require('ws');
 
-  const wss = new WebSocket({ server });
+  const wss = new WebSocket.Server({ server });
+
 
 
 const auth = require("./auth");
