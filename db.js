@@ -1,5 +1,5 @@
 var MongoClient = require("mongodb").MongoClient;
-var db_url = "mongodb+srv://atwar44:qwe789456123@bhtc.bkcoy.mongodb.net/?retryWrites=true&w=majority";
+var db_url = "arn:aws:ec2:us-east-1:117632986068:vpc-peering-connection/pcx-08c8ab367f1f1186b";
 
 MongoClient.connect(db_url, function (err, db) {
   if (err) throw err;
